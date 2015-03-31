@@ -1,7 +1,15 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="smallLogo">
+</div>
+
+<div class="header">
+  <div class="topHeader">
+    {{#link-to 'home'}}Home{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'menu'}}Menu{{/link-to}}
+    {{#link-to 'blog'}}Blog{{/link-to}}
+    {{#link-to 'contact'}}Contact Us{{/link-to}}
+  </div>
+</div>
+
 
 {{outlet}}
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'menu'}}Menu{{/link-to}}
-{{#link-to 'blog'}}Blog{{/link-to}}
-{{#link-to 'contact'}}Contact Us{{/link-to}}
