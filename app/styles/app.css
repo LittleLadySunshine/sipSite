@@ -11,7 +11,13 @@ body, html {
   display: block;
   text-align: center;
   padding: 20px;
-
+  background-image: url(http://cdn.morguefile.com/imageData/public/files/r/roastbeeph/04/l/13979148846eunx.jpg);
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-opacity: 0.5;
 }
 
 .topHeader a {
