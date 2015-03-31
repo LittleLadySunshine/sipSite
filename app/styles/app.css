@@ -7,12 +7,46 @@ body, html {
   box-sizing: border-box;
 }
 
+a:link {
+  color: white; text-decoration: underline;
+  font-family: 'Lobster', 'cursive';
+  font-size: 1.25em;
+  margin: 5px;
+}
+a:active {
+  color: white; text-decoration: underline;
+}
+a:visited {
+  color: white; text-decoration: underline;
+}
+a:hover {
+  color: grey; text-decoration: none;
+}
+
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align: center;
+    background: grey;
+
+}
+
+footer p {
+  color: white;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
 .header {
   display: block;
   text-align: center;
   padding: 20px;
   background-image: url(http://cdn.morguefile.com/imageData/public/files/r/roastbeeph/04/l/13979148846eunx.jpg);
-  height: 200px;
+  height: 150px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,10 +58,13 @@ body, html {
   margin: 20px;
   padding: 25px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  line-height: 23px;
+  font-weight: 900;
+  line-height: 50px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
+  color: grey;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
 }
 
 
