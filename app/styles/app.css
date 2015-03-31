@@ -1,0 +1,38 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.topHeader a {
+  margin: 20px;
+  padding: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  line-height: 23px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+
+.smallLogo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 4px;
+  border-radius: 25px 25px 0;
+  background-image: url(http://sipboulder.calebblock.net/wp-content/uploads/2014/12/logo_200.png);
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+}
