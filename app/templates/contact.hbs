@@ -1,2 +1,33 @@
-{{outlet}}
-contact form here
+<div class="containerContactUs">
+  <form>
+    <p>Contact Us</p>
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{input class="form-control" value=postfName placeholder="First Name"}}
+      </div>
+    </div>
+
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{input class="form-control" value=postlName placeholder="Last Name"}}
+      </div>
+    </div>
+
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{input class="form-control" value=postEmail placeholder="Email"}}
+      </div>
+    </div>
+
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{textarea class="form-control" value=postMessage placeholder="Write your message here..."}}
+      </div>
+    </div>
+    <div class="row1">
+      <div class="col-md-2 col-md-offset-2">
+        <button class="btn btn-default" {{action 'sendEmail'}}>Send Message</button>
+      </div>
+    </div>
+  </form>
+</div>

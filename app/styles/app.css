@@ -24,6 +24,56 @@ a:hover {
 }
 
 
+.centerInfo{
+  padding: 50px;
+}
+
+/* container for forms */
+.containerContactUs {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+}
+
+.containerContactUs p {
+  margin: 10px;
+  color: white;
+}
+
+textarea {
+    height: 20vh;
+    background-color: rgba(107,127,125, 0.25);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+input {
+    background-color: rgba(107,127,125, 0.25);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+  }
+
+button{
+  margin: 10px;
+
+}
+
+/*  */
+
 footer {
     position:fixed;
     left:0px;
@@ -45,7 +95,7 @@ footer p {
   display: block;
   text-align: center;
   padding: 20px;
-  background-image: url(http://cdn.morguefile.com/imageData/public/files/r/roastbeeph/04/l/13979148846eunx.jpg);
+  background-image: url(http://cdn.morguefile.com/imageData/public/files/a/alvimann/preview/fldr_2009_07_06/file9431246908647.jpg);
   height: 150px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
