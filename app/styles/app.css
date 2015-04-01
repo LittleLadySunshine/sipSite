@@ -23,9 +23,36 @@ a:hover {
   color: grey; text-decoration: none;
 }
 
+.beerMenu {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+  padding: 20px;
+}
 
 .centerInfo{
   padding: 50px;
+}
+
+.cocktailsMenu {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+  padding: 20px;
 }
 
 /* container for forms */
@@ -136,8 +163,39 @@ footer p {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.25em;
   border: 2px solid black;
+  padding: 20px;
 
 }
+
+.sandwichesMenu {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.snacksMenu {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+
 .smallLogo {
   display: block;
   width: 200px;
@@ -148,4 +206,18 @@ footer p {
   background-position: center;
   margin: 0 auto;
   text-align: center;
+}
+
+.vinoMenu {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+  padding: 20px;
 }
