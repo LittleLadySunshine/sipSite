@@ -49,6 +49,7 @@ a:hover {
   font-size: 1.25em;
   border: 2px solid black;
   padding: 20px;
+  color: white;
 }
 
 .centerInfo{
@@ -67,6 +68,7 @@ a:hover {
   font-size: 1.25em;
   border: 2px solid black;
   padding: 20px;
+  color: white;
 }
 
 /* container for forms */
@@ -193,6 +195,7 @@ footer p {
   font-size: 1.25em;
   border: 2px solid black;
   padding: 20px;
+  color: white;
 }
 
 .snacksMenu {
@@ -207,6 +210,7 @@ footer p {
   font-size: 1.25em;
   border: 2px solid black;
   padding: 20px;
+  color: white;
 }
 
 
@@ -234,4 +238,5 @@ footer p {
   font-size: 1.25em;
   border: 2px solid black;
   padding: 20px;
+  color: white;
 }
