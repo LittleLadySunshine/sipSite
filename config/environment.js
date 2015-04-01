@@ -13,6 +13,16 @@ module.exports = function(environment) {
       }
     },
 
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-eval' http://maps.googleapis.com/ http://maps.gstatic.com/maps-api-v3/api/js/18/20/main.js",
+      'font-src': "'self'",
+      'connect-src': "'self'",
+      'img-src': "'self'",
+      'style-src': "'self'",
+      'media-src': "'self'"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

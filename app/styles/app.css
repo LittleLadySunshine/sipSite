@@ -104,6 +104,14 @@ footer p {
   background-opacity: 0.5;
 }
 
+/* map */
+.map-canvas {
+  width: 800px;
+  height: 600px;
+  background-color: gray;
+}
+/*  */
+
 .topHeader a {
   margin: 20px;
   padding: 25px;
@@ -117,7 +125,19 @@ footer p {
   font-size: 2em;
 }
 
+.menuContainer {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
 
+}
 .smallLogo {
   display: block;
   width: 200px;
