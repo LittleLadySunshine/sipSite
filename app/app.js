@@ -17,7 +17,7 @@ App.GoogleMapsComponent = Ember.Component.extend({
 
     var options = {
       center: new google.maps.LatLng(this.get("latitude"),
-this.get("longitude")),
+        this.get("longitude")),
       zoom: 17,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -25,6 +25,8 @@ this.get("longitude")),
     new google.maps.Map(container[0], options);
   }.on('didInsertElement')
 });
+
+
 
 
 loadInitializers(App, config.modulePrefix);
