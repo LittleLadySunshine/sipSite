@@ -159,10 +159,14 @@ footer p {
   background-opacity: 0.5;
 }
 
+.jaimePic {
+  background-image: url(http://sipboulder.com/wp-content/uploads/2014/09/jamie-penfold-sip-boulder-colorado.jpg);
+}
+
 /* map */
 .map-canvas {
-  width: 800px;
-  height: 600px;
+  width: 100%;
+  height: 300px;
   background-color: gray;
 }
 /*  */
